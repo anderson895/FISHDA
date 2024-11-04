@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/bgTheme"
+tools:context=".AdminActivity">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/manageUsers"
+            android:layout_width="250dp"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Manage Users"/>
+
+        <Button
+            android:id="@+id/manageItems"
+            android:layout_width="250dp"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Manage Fish"/>
+
+        <Button
+            android:id="@+id/manageOrders"
+            android:layout_width="250dp"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Manage Orders"/>
+        <Button
+            android:id="@+id/manageHistory"
+            android:layout_width="250dp"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Order History"/>
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="250dp"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Logout"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

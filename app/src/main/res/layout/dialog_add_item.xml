@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:id="@+id/qr_code_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fish Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_itemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fish Price"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_itemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fish Quantity"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/et_itemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fish Description"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="3"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+</LinearLayout>

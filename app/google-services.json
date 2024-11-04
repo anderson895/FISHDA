@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "862380922110",
+    "firebase_url": "https://fish-bd2b2-default-rtdb.firebaseio.com",
+    "project_id": "fish-bd2b2",
+    "storage_bucket": "fish-bd2b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862380922110:android:250851adcd90709224c1af",
+        "android_client_info": {
+          "package_name": "com.project.fish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHImg8v-YzQXjSeIr2YZcu8-v8ulVSC0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
